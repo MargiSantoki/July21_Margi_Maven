@@ -1,17 +1,387 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43" started-at="2021-11-14T15:04:14Z" finished-at="2021-11-14T15:04:15Z">
+  <suite name="Default suite" duration-ms="507334" started-at="2021-11-23T06:36:55Z" finished-at="2021-11-23T06:45:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43" started-at="2021-11-14T15:04:14Z" finished-at="2021-11-14T15:04:15Z">
-      <class name="welcome.Hello_World">
-        <test-method status="PASS" signature="welcome()[pri:0, instance:welcome.Hello_World@62ee68d8]" name="welcome" duration-ms="17" started-at="2021-11-14T20:34:14Z" finished-at="2021-11-14T20:34:14Z">
+    <test name="Default test" duration-ms="507334" started-at="2021-11-23T06:36:55Z" finished-at="2021-11-23T06:45:22Z">
+      <class name="com.technocredits.orghm.testscripts.PIM_AddEmployeeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="setUp" is-config="true" duration-ms="45235" started-at="2021-11-23T12:06:55Z" finished-at="2021-11-23T12:07:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- welcome -->
-      </class> <!-- welcome.Hello_World -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddEmployee()[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="verifyAddEmployee" duration-ms="68158" started-at="2021-11-23T12:07:40Z" finished-at="2021-11-23T12:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddEmployee -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="afterMethod" is-config="true" duration-ms="385" started-at="2021-11-23T12:08:48Z" finished-at="2021-11-23T12:08:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddEmployee status=SUCCESS method=PIM_AddEmployeeTest.verifyAddEmployee()[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="setUp" is-config="true" duration-ms="25534" started-at="2021-11-23T12:08:53Z" finished-at="2021-11-23T12:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddEmployeeUsingDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="verifyAddEmployeeUsingDataDriven" duration-ms="58690" started-at="2021-11-23T12:09:18Z" data-provider="employeeDataProvider" finished-at="2021-11-23T12:10:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[elsa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bill]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Canadian Development Center]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[reading]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Twilight]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[23.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Region-1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.75]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Sub unit-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddEmployeeUsingDataDriven -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="afterMethod" is-config="true" duration-ms="444" started-at="2021-11-23T12:10:17Z" finished-at="2021-11-23T12:10:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddEmployeeUsingDataDriven status=SUCCESS method=PIM_AddEmployeeTest.verifyAddEmployeeUsingDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="setUp" is-config="true" duration-ms="26768" started-at="2021-11-23T12:10:17Z" finished-at="2021-11-23T12:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddEmployeeUsingDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="verifyAddEmployeeUsingDataDriven" duration-ms="52740" started-at="2021-11-23T12:10:44Z" data-provider="employeeDataProvider" finished-at="2021-11-23T12:11:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bill]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Canadian Development Center]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[travelling]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Twilight]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[24.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Region-2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Sub unit-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddEmployeeUsingDataDriven -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="afterMethod" is-config="true" duration-ms="457" started-at="2021-11-23T12:11:37Z" finished-at="2021-11-23T12:11:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddEmployeeUsingDataDriven status=SUCCESS method=PIM_AddEmployeeTest.verifyAddEmployeeUsingDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="setUp" is-config="true" duration-ms="18229" started-at="2021-11-23T12:11:37Z" finished-at="2021-11-23T12:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddEmployeeUsingDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="verifyAddEmployeeUsingDataDriven" duration-ms="56856" started-at="2021-11-23T12:11:55Z" data-provider="employeeDataProvider" finished-at="2021-11-23T12:12:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jack]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[j]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[black]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Canadian Development Center]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[painting]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[General]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Region-3]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Sub unit-3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddEmployeeUsingDataDriven -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="afterMethod" is-config="true" duration-ms="511" started-at="2021-11-23T12:12:52Z" finished-at="2021-11-23T12:12:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddEmployeeUsingDataDriven status=SUCCESS method=PIM_AddEmployeeTest.verifyAddEmployeeUsingDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="setUp" is-config="true" duration-ms="19505" started-at="2021-11-23T12:12:53Z" finished-at="2021-11-23T12:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddEmployeeUsingDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="verifyAddEmployeeUsingDataDriven" duration-ms="54225" started-at="2021-11-23T12:13:12Z" data-provider="employeeDataProvider" finished-at="2021-11-23T12:14:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rosalie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Canadian Development Center]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[reading]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Twilight]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Region-3]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.75]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Sub unit-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddEmployeeUsingDataDriven -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="afterMethod" is-config="true" duration-ms="1727" started-at="2021-11-23T12:14:07Z" finished-at="2021-11-23T12:14:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddEmployeeUsingDataDriven status=SUCCESS method=PIM_AddEmployeeTest.verifyAddEmployeeUsingDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="setUp" is-config="true" duration-ms="21148" started-at="2021-11-23T12:14:08Z" finished-at="2021-11-23T12:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddEmployeeUsingDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="verifyAddEmployeeUsingDataDriven" duration-ms="52712" started-at="2021-11-23T12:14:29Z" data-provider="employeeDataProvider" finished-at="2021-11-23T12:15:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[charlie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[g]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kale]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Canadian Development Center]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[drawing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Default Shift]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Region-2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Sub unit-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddEmployeeUsingDataDriven -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b]" name="afterMethod" is-config="true" duration-ms="205" started-at="2021-11-23T12:15:22Z" finished-at="2021-11-23T12:15:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddEmployeeUsingDataDriven status=SUCCESS method=PIM_AddEmployeeTest.verifyAddEmployeeUsingDataDriven(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.technocredits.orghm.testscripts.PIM_AddEmployeeTest@5383967b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.technocredits.orghm.testscripts.PIM_AddEmployeeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
